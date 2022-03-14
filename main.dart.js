@@ -11008,13 +11008,14 @@ _.c=0},
 b_k(){return new A.Cj(new A.agc(),A.w(t.K,t.Qu))},
 Wf:function Wf(a,b){this.a=a
 this.b=b},
-D4:function D4(a,b,c,d,e,f){var _=this
+D4:function D4(a,b,c,d,e,f,g){var _=this
 _.e=a
-_.fx=b
-_.k4=c
-_.rx=d
-_.y2=e
-_.a=f},
+_.dy=b
+_.fx=c
+_.k4=d
+_.rx=e
+_.y2=f
+_.a=g},
 agc:function agc(){},
 agf:function agf(){},
 Hz:function Hz(a){var _=this
@@ -52468,7 +52469,7 @@ return new A.EW(new A.Af(o,s,B.S,B.aB,m,m),m)},
 a6l(a){var s,r=this,q=null,p=r.a,o=p.fx
 o=o.cx
 s=o
-return new A.Gg(q,q,q,new A.avV(),q,q,q,q,p.e,B.a54,q,q,B.Vh,r.gad5(),"",q,B.acd,s,q,r.gad0(),q,q,r.a.rx,!1,!1,!1,!1,r.gacp(),!1,q,q,q,!1,new A.nS(r,t.bT))},
+return new A.Gg(q,q,q,new A.avV(),q,q,q,q,p.e,B.a54,q,q,B.Vh,r.gad5(),p.dy,q,B.acd,s,q,r.gad0(),q,q,r.a.rx,!1,!1,!1,!1,r.gacp(),!1,q,q,q,!1,new A.nS(r,t.bT))},
 L(a,b){var s=null,r=A.BZ(!1,!1,this.a6l(b),s,s,s,!0,s,s,new A.avW(),s,s)
 this.a.toString
 return A.aLQ(B.GV,new A.qw(A.b(this.d,"_heroController"),r,s))}}
@@ -88876,7 +88877,7 @@ return A.z($async$A7,r)},
 p(a){A.b(this.e,"_timer").ae(0)
 this.ba(0)},
 L(a,b){var s=null,r=A.aIL(B.p7,s,B.aN,s,s,s,B.k1),q=A.b1U(B.aV),p=$.a3M(),o=p.eR(24,B.l,1.33)
-return new A.D4(B.LS,A.aMk(B.FY,s,r,B.LW,q.a.akM(p.eR(24,B.l,1.33),o,p.eR(18,B.l,1.22))),B.P1,B.R_,!1,s)}}
+return new A.D4(B.LS,"Pixel Art Puzzle",A.aMk(B.FY,s,r,B.LW,q.a.akM(p.eR(24,B.l,1.33),o,p.eR(18,B.l,1.22))),B.P1,B.R_,!1,s)}}
 A.arJ.prototype={
 $0(){var s,r=null,q=A.fD("assets/images/twitter_icon.png",B.B,B.df,r,r,r),p=this.a,o=p.c
 o.toString
